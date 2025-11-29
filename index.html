@@ -1,114 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>18k Solutions Roadside Assistance</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      color: #222;
-    }
-    header {
-      background: #111;
-      color: #fff;
-      padding: 24px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    .hero {
-      padding: 40px 20px;
-      text-align: center;
-      background: #222;
-      color: #fff;
-    }
-    .hero h2 {
-      margin: 0 0 10px;
-      font-size: 1.8rem;
-    }
-    .hero p {
-      margin: 0;
-      font-size: 1.1rem;
-    }
-    .cta-btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 14px 28px;
-      background: #ffcc00;
-      color: #111;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 8px;
-      font-size: 1.2rem;
-    }
-    .section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .section h3 {
-      font-size: 1.6rem;
-      margin-bottom: 16px;
-    }
-    .services-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 16px;
-    }
-    .service-box {
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    footer {
-      background: #111;
-      color: #fff;
-      text-align: center;
-      padding: 30px;
-      margin-top: 40px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>18k Solutions Roadside Assistance</h1>
-    <p>Fast • Reliable • 24/7 Local Service</p>
-  </header>
-
-  <div class="hero">
-    <h2>Stranded? Locked Out? Flat Tire?</h2>
-    <p>We're on the way. Serving Fayette County and surrounding areas 24/7.</p>
-    <a href="tel:+16146536322" class="cta-btn">Call Now</a>
-  </div>
-
-  <section class="section">
-    <h3>Our Services</h3>
-    <div class="services-list">
-      <div class="service-box">24/7 Roadside Assistance</div>
-      <div class="service-box">Jump Starts</div>
-      <div class="service-box">Lockouts</div>
-      <div class="service-box">Flat Tire Changes</div>
-      <div class="service-box">Fuel Delivery</div>
-      <div class="service-box">Winch Outs</div>
-      <div class="service-box">Light-Duty Towing</div>
-      <div class="service-box">Car Trailer Transport</div>
+<header class="hero">
+    <img src="images/photo1.jpg" alt="Service truck roadside assistance" class="hero-image">
+    <div class="hero-text">
+        <h1>Fast & Reliable Roadside Service</h1>
+        <p>24/7 mobile repair, jump starts, tire service, fuel delivery & more</p>
     </div>
-  </section>
+</header>
 
-  <section class="section">
-    <h3>Why Choose Us</h3>
-    <p>We know emergencies are stressful. That's why we provide fast arrival times, fair prices, and dependable service. Whether you're locked out, have a flat, or need a tow — we’ve got you covered.</p>
-  </section>
+<style>
+.hero {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
 
-  <footer>
-    <p>© 2025 18k Solutions Roadside Assistance</p>
-    <p>Fast • Professional • Local</p>
-  </footer>
-</body>
-</html>
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+    font-size: 1.5rem;
+}
+</style>

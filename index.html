@@ -11,22 +11,20 @@
   <meta name="keywords" content="roadside assistance, Fayette County Ohio, Washington Court House roadside help, car lockout, semi truck lockout, jump start, flat tire help, fuel delivery, fluid delivery, 24/7 roadside Ohio" />
 
   <meta name="author" content="18K Solutions Roadside Assistance" />
-
   <meta name="robots" content="index, follow" />
 
   <meta property="og:title" content="18K Solutions Roadside Assistance | 24/7 Fayette County Ohio" />
-
   <meta property="og:description" content="Fast 24/7 roadside assistance in Washington Court House, Ohio. Lockouts, jump starts, tire changes, fuel/fluid delivery, and more." />
-
   <meta property="og:type" content="website" />
 
-  <!-- LOCAL BUSINESS SCHEMA -->
+  <!-- LOCAL BUSINESS + REVIEW SCHEMA -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "18K Solutions Roadside Assistance",
     "telephone": "+1-614-653-6322",
+    "image": "Screenshot_20260613_122250_Gallery.jpg",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Washington Court House",
@@ -35,6 +33,13 @@
     },
     "areaServed": "Fayette County, Ohio",
     "openingHours": "Mo-Su 00:00-23:59",
+
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "100"
+    },
+
     "description": "24/7 roadside assistance including lockouts, jump starts, tire changes, fuel and fluid delivery, and emergency roadside help."
   }
   </script>
@@ -54,18 +59,11 @@
       text-align: center;
     }
 
-    header h1 {
-      margin: 0;
-      font-size: 1.8rem;
-    }
-
-    header p {
-      margin: 5px 0 0;
-      color: #ccc;
-    }
+    header h1 { margin: 0; font-size: 1.8rem; }
+    header p { margin: 5px 0 0; color: #ccc; }
 
     .hero {
-      background-image:
+      background:
         linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
         url("./Screenshot_20260613_122250_Gallery.jpg");
       background-size: cover;
@@ -79,20 +77,10 @@
       padding: 40px 20px;
     }
 
-    .hero-content {
-      max-width: 850px;
-    }
+    .hero-content { max-width: 850px; }
 
-    .hero h2 {
-      font-size: 2.8rem;
-      margin-bottom: 15px;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      margin-bottom: 25px;
-      line-height: 1.5;
-    }
+    .hero h2 { font-size: 2.8rem; margin-bottom: 15px; }
+    .hero p { font-size: 1.2rem; margin-bottom: 25px; line-height: 1.5; }
 
     .cta-btn {
       display: inline-block;
@@ -127,6 +115,14 @@
       font-weight: bold;
     }
 
+    .map {
+      margin-top: 40px;
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 10px;
+    }
+
     .call-banner {
       background: #111;
       color: #fff;
@@ -152,38 +148,14 @@
       color: #fff;
       text-align: center;
       padding: 25px;
-      margin-top: 40px;
     }
 
-    /* MOBILE OPTIMIZATION */
     @media (max-width: 600px) {
-      .hero {
-        min-height: 420px;
-        padding: 20px;
-      }
-
-      .hero h2 {
-        font-size: 1.8rem;
-      }
-
-      .hero p {
-        font-size: 1rem;
-      }
-
-      header h1 {
-        font-size: 1.4rem;
-      }
-
-      .sticky-call {
-        width: 90%;
-        left: 5%;
-        right: 5%;
-        text-align: center;
-        border-radius: 12px;
-      }
+      .hero { min-height: 420px; padding: 20px; }
+      .hero h2 { font-size: 1.8rem; }
+      .hero p { font-size: 1rem; }
     }
 
-    /* STICKY CALL BUTTON */
     .sticky-call {
       position: fixed;
       bottom: 15px;
@@ -196,10 +168,6 @@
       text-decoration: none;
       box-shadow: 0 4px 10px rgba(0,0,0,0.3);
       z-index: 9999;
-    }
-
-    .cta-btn, .call-banner a {
-      touch-action: manipulation;
     }
   </style>
 </head>
@@ -217,7 +185,7 @@
 
     <p>
       Locked out? Dead battery? Flat tire? Out of fuel or fluids?
-      We provide fast roadside help for cars and commercial vehicles — day or night.
+      Fast roadside help for cars and commercial vehicles.
     </p>
 
     <a class="cta-btn" href="tel:+16146536322">CALL NOW (614) 653-6322</a>
@@ -236,26 +204,22 @@
     <div class="service-box">Tire Plug & Patch</div>
     <div class="service-box">Fuel / Fluid Delivery</div>
     <div class="service-box">Commercial Vehicle Help</div>
-    <div class="service-box">Roadside Assistance 24/7</div>
   </div>
+
+  <!-- GOOGLE MAP -->
+  <iframe
+    class="map"
+    src="https://www.google.com/maps?q=Washington%20Court%20House%20Ohio&output=embed">
+  </iframe>
 </section>
 
 <section class="section">
   <h2>Why Choose Us</h2>
-
-  <p>
-    Serving Washington Court House, Jeffersonville, Bloomingburg, Greenfield,
-    and all of Fayette County, Ohio with fast 24/7 roadside assistance.
-  </p>
-
-  <p>
-    Our goal is simple — get you back on the road safely and quickly.
-  </p>
+  <p>Serving Fayette County, Ohio with fast 24/7 roadside assistance.</p>
 </section>
 
 <div class="call-banner">
   <h2>Need Help Now?</h2>
-  <p>Call anytime — 24/7 emergency roadside service</p>
   <a href="tel:+16146536322">CALL (614) 653-6322</a>
 </div>
 

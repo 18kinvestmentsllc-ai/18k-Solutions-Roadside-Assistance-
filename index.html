@@ -6,9 +6,9 @@
 
   <title>18K Solutions Roadside Assistance | 24/7 Fayette County OH</title>
 
-  <meta name="description" content="18K Solutions Roadside Assistance provides 24/7 emergency roadside help in Fayette County, Ohio including lockouts, jump starts, tire changes, fuel delivery, and light towing for cars, trucks, and semis." />
+  <meta name="description" content="18K Solutions Roadside Assistance provides 24/7 emergency roadside help in Fayette County, Ohio including lockouts, jump starts, tire changes, fuel/fluid delivery, and commercial roadside support." />
 
-  <meta name="keywords" content="roadside assistance, towing service, Fayette County Ohio, Washington Court House towing, car lockout, semi truck lockout, jump start, flat tire help, fuel delivery, 24/7 towing Ohio" />
+  <meta name="keywords" content="roadside assistance, Fayette County Ohio, Washington Court House roadside help, car lockout, semi truck lockout, jump start, flat tire help, fuel delivery, fluid delivery, 24/7 roadside Ohio" />
 
   <meta name="author" content="18K Solutions Roadside Assistance" />
 
@@ -16,9 +16,28 @@
 
   <meta property="og:title" content="18K Solutions Roadside Assistance | 24/7 Fayette County Ohio" />
 
-  <meta property="og:description" content="Fast 24/7 roadside assistance in Washington Court House, Ohio. Lockouts, jump starts, tire changes, fuel delivery, and more." />
+  <meta property="og:description" content="Fast 24/7 roadside assistance in Washington Court House, Ohio. Lockouts, jump starts, tire changes, fuel/fluid delivery, and more." />
 
   <meta property="og:type" content="website" />
+
+  <!-- LOCAL BUSINESS SCHEMA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "18K Solutions Roadside Assistance",
+    "telephone": "+1-614-653-6322",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Washington Court House",
+      "addressRegion": "OH",
+      "addressCountry": "US"
+    },
+    "areaServed": "Fayette County, Ohio",
+    "openingHours": "Mo-Su 00:00-23:59",
+    "description": "24/7 roadside assistance including lockouts, jump starts, tire changes, fuel and fluid delivery, and emergency roadside help."
+  }
+  </script>
 
   <style>
     body {
@@ -135,6 +154,53 @@
       padding: 25px;
       margin-top: 40px;
     }
+
+    /* MOBILE OPTIMIZATION */
+    @media (max-width: 600px) {
+      .hero {
+        min-height: 420px;
+        padding: 20px;
+      }
+
+      .hero h2 {
+        font-size: 1.8rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      header h1 {
+        font-size: 1.4rem;
+      }
+
+      .sticky-call {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        text-align: center;
+        border-radius: 12px;
+      }
+    }
+
+    /* STICKY CALL BUTTON */
+    .sticky-call {
+      position: fixed;
+      bottom: 15px;
+      right: 15px;
+      background: #ffcc00;
+      color: #111;
+      padding: 14px 18px;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      z-index: 9999;
+    }
+
+    .cta-btn, .call-banner a {
+      touch-action: manipulation;
+    }
   </style>
 </head>
 
@@ -150,14 +216,11 @@
     <h2>24/7 Roadside Assistance in Fayette County, Ohio</h2>
 
     <p>
-      Locked out? Dead battery? Flat tire? Out of fuel?
-      We provide fast roadside assistance for cars, trucks,
-      commercial vehicles, and semi trucks — day or night.
+      Locked out? Dead battery? Flat tire? Out of fuel or fluids?
+      We provide fast roadside help for cars and commercial vehicles — day or night.
     </p>
 
-    <a class="cta-btn" href="tel:+16146536322">
-      CALL NOW (614) 653-6322
-    </a>
+    <a class="cta-btn" href="tel:+16146536322">CALL NOW (614) 653-6322</a>
   </div>
 </div>
 
@@ -171,9 +234,8 @@
     <div class="service-box">Battery Replacement</div>
     <div class="service-box">Flat Tire Changes</div>
     <div class="service-box">Tire Plug & Patch</div>
-    <div class="service-box">Fuel Delivery</div>
+    <div class="service-box">Fuel / Fluid Delivery</div>
     <div class="service-box">Commercial Vehicle Help</div>
-    <div class="service-box">Light Towing</div>
     <div class="service-box">Roadside Assistance 24/7</div>
   </div>
 </section>
@@ -182,7 +244,7 @@
   <h2>Why Choose Us</h2>
 
   <p>
-    We proudly serve Washington Court House, Jeffersonville, Bloomingburg, Greenfield,
+    Serving Washington Court House, Jeffersonville, Bloomingburg, Greenfield,
     and all of Fayette County, Ohio with fast 24/7 roadside assistance.
   </p>
 
@@ -196,6 +258,8 @@
   <p>Call anytime — 24/7 emergency roadside service</p>
   <a href="tel:+16146536322">CALL (614) 653-6322</a>
 </div>
+
+<a class="sticky-call" href="tel:+16146536322">CALL NOW</a>
 
 <footer>
   <p>© 2026 18K Solutions Roadside Assistance</p>

@@ -17,13 +17,25 @@
   <meta property="og:description" content="Fast 24/7 roadside assistance in Washington Court House, Ohio. Lockouts, jump starts, tire changes, fuel delivery, and more." />
   <meta property="og:type" content="website" />
 
-  <!-- GOOGLE ADS TAG (UNCHANGED) -->
+  <!-- GOOGLE ADS TAG -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10854554306"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'AW-10854554306');
+  </script>
+
+  <!-- CLICK TO CALL CONVERSION TRACKING -->
+  <script>
+    function trackCallConversion() {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-10854554306/WCPOCOyBzcUcEMK17bco',
+        'value': 1.0,
+        'currency': 'USD'
+      });
+      return true;
+    }
   </script>
 
   <style>
@@ -64,7 +76,6 @@
     .hero h2 { font-size: 2.8rem; margin-bottom: 15px; }
     .hero p { font-size: 1.2rem; margin-bottom: 25px; line-height: 1.5; }
 
-    /* ⭐ NEW RATING STYLE (NO LAYOUT CHANGE) */
     .rating {
       margin: 10px 0;
       font-size: 18px;
@@ -84,9 +95,7 @@
       transition: transform 0.1s ease;
     }
 
-    .cta-btn:active {
-      transform: scale(0.97);
-    }
+    .cta-btn:active { transform: scale(0.97); }
 
     .section {
       padding: 50px 20px;
@@ -145,7 +154,6 @@
       padding: 25px;
     }
 
-    /* 📱 MOBILE FLOAT CALL BUTTON (NEW) */
     .mobile-call {
       position: fixed;
       bottom: 15px;
@@ -173,7 +181,6 @@
   <div class="hero-content">
     <h2>24/7 Roadside Assistance in Fayette County, Ohio</h2>
 
-    <!-- ⭐ ADDED RATING (NO DESIGN CHANGE) -->
     <div class="rating">
       ⭐ 5.0 Rating • 216+ Google Reviews
     </div>
@@ -183,7 +190,11 @@
       Fast roadside help for cars and commercial vehicles.
     </p>
 
-    <a class="cta-btn" href="tel:+16146536322">CALL NOW (614) 653-6322</a>
+    <a class="cta-btn"
+       href="tel:+16146536322"
+       onclick="return trackCallConversion();">
+      CALL NOW (614) 653-6322
+    </a>
   </div>
 </div>
 
@@ -208,11 +219,16 @@
 
 <div class="call-banner">
   <h2>Need Help Now?</h2>
-  <a href="tel:+16146536322">CALL (614) 653-6322</a>
+  <a href="tel:+16146536322" onclick="return trackCallConversion();">
+    CALL (614) 653-6322
+  </a>
 </div>
 
-<!-- 📱 NEW MOBILE CALL BUTTON -->
-<a class="mobile-call" href="tel:+16146536322">CALL NOW</a>
+<a class="mobile-call"
+   href="tel:+16146536322"
+   onclick="return trackCallConversion();">
+   CALL NOW
+</a>
 
 <footer>
   <p>© 2026 18K Solutions Roadside Assistance</p>
